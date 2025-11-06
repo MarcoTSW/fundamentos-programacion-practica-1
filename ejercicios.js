@@ -186,6 +186,14 @@ function sumaHastaN(n) {
 function tablaMultiplicar(numero) {
   // TODO: Genera un array con la tabla de multiplicar
   const tabla = [];
+  
+  for (let factor = 1; factor <= 10; factor++) {
+    let resultado = numero * factor;
+
+    tabla.push(resultado);
+
+  }
+
   return tabla;
 }
 
