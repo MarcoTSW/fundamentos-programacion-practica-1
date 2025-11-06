@@ -146,7 +146,17 @@ function clasificarEdad(edad) {
  */
 function factorial(n) {
   // TODO: Implementa usando un bucle for
-  return 1;
+  let resultado = 1;
+
+  if (n == 0) {
+    return 1;
+  }
+
+  for (let i = n; i >= 1; i--) {
+    resultado = resultado;
+  }
+
+  return resultado;
 }
 
 /**
