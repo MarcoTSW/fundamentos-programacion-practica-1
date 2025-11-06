@@ -148,12 +148,12 @@ function factorial(n) {
   // TODO: Implementa usando un bucle for
   let resultado = 1;
 
-  if (n == 0) {
+  if (n === 0) {
     return 1;
   }
 
   for (let i = n; i >= 1; i--) {
-    resultado = resultado;
+    resultado = resultado * i;
   }
 
   return resultado;
