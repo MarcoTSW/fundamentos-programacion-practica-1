@@ -391,6 +391,18 @@ const miMatriz = [[1, 2], [3, 4], [5, 6]];
 function obtenerColumna(matriz, indiceColumna) {
   // TODO: Extrae todos los elementos de la columna indicada
   const columna = [];
+  
+  for (let i = 0; i < matriz.length; i++) {
+    const filaActual = matriz[i];
+
+    if (indiceColumna < filaActual.length) {
+      const elemento = filaActual[indiceColumna];
+
+      columna.push(elemento);
+    }
+  }
+
+
   return columna;
 }
 
