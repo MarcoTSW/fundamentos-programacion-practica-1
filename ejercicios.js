@@ -283,16 +283,16 @@ function encontrarMaximo(numeros) {
 function filtrarMayores(numeros, limite) {
   // TODO: Crea un nuevo array con solo los nÃºmeros mayores al lÃ­mite
   const mayores = [];
-  
-  for (const numero of numero) {
-    
 
-    if (numero > limite) {
-      mayores.push(numero);
+  for (let i = 0; i< numeros.length; i++) {
+
+    if (numeros[i] > limite) {
+      mayores.push(numeros[i]);
     }
   }
 
   return mayores;
+  
 }
 
 /**
@@ -327,6 +327,21 @@ function invertirArray(arr) {
 function crearMatriz(filas, columnas) {
   // TODO: Crea una matriz de filas x columnas llena de ceros
   const matriz = [];
+
+  
+  for (let i = 0; i < filas; i++) {
+    
+    const fila = [];
+
+    
+    for (let j = 0; j < columnas; j++) {
+      fila.push(0); 
+    }
+
+   
+    matriz.push(fila);
+  }
+
   return matriz;
 }
 
