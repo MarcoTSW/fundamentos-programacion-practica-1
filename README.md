@@ -1,6 +1,7 @@
 # Tecnológico de Software
 ## Materia: Fundamentos de álgebra
 ## Alumno: Marco David Parera Flores 
+## Docente: Jorge Javier Pedrozo Romero
 ## Actividad \#18 - Documentación de ejerecicios con Git branch
 
 ---
