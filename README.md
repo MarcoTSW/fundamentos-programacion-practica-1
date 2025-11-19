@@ -1,103 +1,54 @@
-# Práctica de Fundamentos de Programación
-## Desarrollo de Software y Negocios Digitales
-
- ![Tests](https://github.com/JorgeTSW/fundamentos-programacion-practica-1/actions/workflows/test.yml/badge.svg)
-
-¡Bienvenido a la práctica de programación! En este repositorio aprenderás a programar en JavaScript mientras aplicas conceptos de álgebra.
-
-## Objetivos
-
-- Aprender a usar Git y GitHub
-- Dominar los fundamentos de JavaScript
-- Prepararte para programar operaciones matriciales
-- Desarrollar habilidades de resolución de problemas
-
-## Requisitos previos
-
-- Tener una cuenta en [GitHub](https://github.com)
-- Instalar [Node.js](https://nodejs.org) (versión 14 o superior)
-- Instalar [Git](https://git-scm.com)
-- Un editor de código como [VS Code](https://code.visualstudio.com)
-
-## ¿Cómo empezar?
-
-### Paso 1: Fork del repositorio
-1. Haz clic en el botón **Fork** en la esquina superior derecha
-2. Esto creará una copia del repositorio en tu cuenta
-
-### Paso 2: Clonar tu fork
-```bash
-git clone https://github.com/TU-USUARIO/fundamentos-programacion.git
-cd fundamentos-programacion
-```
-
-### Paso 3: Instalar dependencias
-```bash
-npm install
-```
-
-### Paso 4: Completar los ejercicios
-Abre el archivo `ejercicios.js` y completa cada función siguiendo las instrucciones.
-
-### Paso 5: Probar tu código localmente
-```bash
-npm test
-```
-
-### Paso 6: Subir tus cambios
-```bash
-git add ejercicios.js
-git commit -m "Ejercicio #XX completado"
-git push origin main
-```
-
-### Paso 7: Ver tu calificación
-- Ve a la pestaña **Actions** en tu repositorio de GitHub
-- Verás el resultado de los tests automáticos
-- ¡Tu calificación aparecerá allí­!
-
-## Estructura del repositorio
-
-```
-fundamentos-programacion/
-├── .github/
-│   └── workflows/
-│       └── test.yml           # Configuración de GitHub Actions
-├── ejercicios.js              # Aquí­ escribirás tu código
-├── ejercicios.test.js         # Tests (NO modificar)
-├── package.json               # Configuración del proyecto
-└── README.md                  # Este archivo
-```
-
-## Reglas importantes
-
-1. **SOLO** debes modificar el archivo `ejercicios.js`
-2. **NO** modifiques los archivos de test
-3. **NO** modifiques la configuración de GitHub Actions
-4. Todos los ejercicios deben pasar los tests para obtener la máxima calificación
-
-## Consejos
-
-- Lee cuidadamente las instrucciones de cada ejercicio
-- Prueba tu código localmente antes de hacer push
-- Si un test falla, lee el mensaje de error - te dice qué está mal
-- Puedes hacer múltiples commits, no hay penalización
-- Busca ayuda en la documentación de [JavaScript MDN](https://developer.mozilla.org/es/docs/Web/JavaScript)
-
-## Sistema de calificación
-
-- Cada ejercicio vale puntos especí­ficos
-- La calificación final es automática
-- Aparecerá en los resultados de GitHub Actions
-- Badge de estado: ![Tests](https://github.com/JorgeTSW/fundamentos-programacion-practica-1/actions/workflows/test.yml/badge.svg)
-
-## Próximos pasos
-
-Una vez domines estos fundamentos, trabajaremos en:
-- Operaciones con matrices
-- Calculadora matricial
-- Aplicaciones prácticas (editores de imágenes, encriptación)
+# Tecnológico de Software
+## Materia: Fundamentos de álgebra
+## Alumno: Marco David Parera Flores 
+## Actividad \#18 - Documentación de ejerecicios con Git branch
 
 ---
+### Calcula el determinante
 
-**¡Éxito en tu práctica!**
+$$ A =
+\begin{pmatrix}
+4 & 5 \\
+-3 & 2 \\
+\end{pmatrix}
+$$
+
+det(A)=23
+
+$$ B =
+\begin{pmatrix}
+3 & 5 & 7 \\
+0 & -3 & 1 \\
+0 & 0 & -9 \\
+\end{pmatrix}
+$$
+
+det(B)=81
+
+$$ C =
+\begin{pmatrix}
+8 & 7 & 6 \\
+15 & 2 & 3 \\
+2 & 4 & 10 \\
+\end{pmatrix}
+$$
+
+det(C)=-608
+
+$$ BC =
+\begin{pmatrix}
+(24 + 75 + 14 & 21 + 10 + 28 & 18 + 15 + 70) \\
+(0 - 45 + 2 & 0 - 6 + 4 & 0 - 9 + 10) \\
+(0 + 0 - 18 & 0 + 0 - 36 & 0 + 0 - 90) \\
+\end{pmatrix}
+$$
+
+$$ BC =
+\begin{pmatrix}
+113 & 59 & 103 \\
+-43 & -2 & 1 \\
+-18 & -36 & -90 \\
+\end{pmatrix}
+$$
+
+det(BC)=-49248
